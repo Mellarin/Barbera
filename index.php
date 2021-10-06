@@ -7,7 +7,7 @@ require_once("./layout/header.php");
  }
 else
  {
-    require_once("/vs/js/html/Barberka_T/views/main.php");
+    require_once("./views/error.php");
  }
  require_once("./layout/footer.php");
 

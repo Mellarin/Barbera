@@ -14,11 +14,12 @@
         <div id="menu" class="menu"></div>
         <nav class="navbar">
             <ul>
-                <li><a class="active" href="main.php">HOME</a></li>
-                <li><a href="">Photos</a></li>
-                <li><a href="/views/about.php">About us</a></li>
-                <li><a href="haircuts.php">Haircuts</a></li>
-                <li><a href="#Price">Price</a></li>
+                <li><a class="active" href="index.php?action=main">HOME</a></li>
+                <li><a href="index.php?action=photo">Photos</a></li>
+                <li><a href="index.php?action=about">About us</a></li>
+                <li><a href="index.php?action=haircuts">Haircuts</a></li>
+                <li><a href="index.php?action=price">Price</a></li>
+                <li><a href="index.php?action=registration">Registration</a></li>
             </ul>
         </nav>
     </header>
