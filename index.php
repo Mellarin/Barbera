@@ -9,6 +9,4 @@ else
     require_once("./views/error.php");
  }
  include("./layout/footer.php");
-
 ?>
-   

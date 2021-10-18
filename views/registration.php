@@ -27,8 +27,24 @@ if(isset($_POST['submit']))
 	{
 		$error4 = "Passwords did not match!";
 	}
+	$accountData = json_decode(file_get_contents("./json/countries.json"), true);
+
 }
 ?>
+<script>
+	fetch("countries.json")
+	.then(response => response.json())
+	.then(countries => {
+		var template = '';
+		for(var country of countries)
+		{
+			template+=<option value="${country.name}">${country.name}</option>
+		}
+		const l = document.getElementById('selector')
+		l.innerHTML=template;
+	}
+	)
+</script>
 <section class="register" id="register">
 <div class="container">
 		<form action="" method="POST" class="login-email">
@@ -66,6 +82,13 @@ if(isset($_POST['submit']))
 				?>
 			</div>
 			<div class="input-group">
+				<a class="Chooose" style="font-size:2.5rem">Choose country</a>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+				<select id='select' style="font-size:2.5rem">
+					<option value="countries"></option>
+				</select>
+			</div>
+			<div class="input-group">
 				<button name="submit" class="btn">Register</button>
 			</div>
 			<p class="login-register-text">Have an account? <a href="index.php">Login Here</a>.</p>
@@ -78,3 +101,5 @@ if(isset($error))
 }
 ?>
 </section>
+
+
