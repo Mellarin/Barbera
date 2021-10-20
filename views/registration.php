@@ -98,7 +98,7 @@ if ( isset($_POST['captcha']) && ($_POST['captcha']!="") ){
 			</div>
 			<div class="input-group">
 		       <a><img src="captcha.php?rand=<?php echo rand(); ?>" id='captcha_image'></a>
-                <p style="color: #111;"><a style="text-decoration:none color: #111;" href='javascript: refreshCaptcha();'>Refresh</a></p>
+                <p style="color: #111;"><a style="text-decoration:none" href='javascript: refreshCaptcha();'>Refresh</a></p>
 				<input type="captcha" placeholder="Captcha" required>		
 			</div>
 			<div class="input-group">
