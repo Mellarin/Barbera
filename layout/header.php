@@ -11,7 +11,7 @@
 <body>
     <header>
         <a href="#" class="logo"><span>BARBERKA</span></a>
-        <div id="menu" class="menu"></div>
+        <div id="menu" class="fas fa-bars"></div>
         <nav class="navbar">
             <ul>
                 <li><a class="active" href="index.php?action=main">HOME</a></li>

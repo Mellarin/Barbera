@@ -33,6 +33,7 @@ body {
     background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../images/2.png");
     background-position: center;
     background-size: cover;
+    zoom:100%;
 }
 
 html::-webkit-scrollbar{
@@ -79,50 +80,44 @@ section{
 }
 
 header{
-    position:fixed;
-    top: 2.5rem;
-    left:50%;
-    transform: translate(-50%);
-    width:93%;
+    position: fixed;
+    top:0; left:0;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#fff;
     z-index: 1000;
-    background:white;
-    box-shadow:0 .5rem 1rem black;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding:2rem 3rem;
-    border-radius:.5rem;
+    padding:1.5rem 5%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     
 }
 
 header .logo{
-    color:#333;
-    font-size: 2.5rem;
-}
-
-header .logo span{
-    color:var(--red);
+    font-size: 3.5rem;
+    color:var(--blue);
 }
 
 header .navbar ul{
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     list-style: none;
 }
 
 header .navbar ul li{
-    margin-left: 3rem;
+    margin-left: 3.5rem;
 }
 
 header .navbar ul li a{
-    font-size: 2rem;
     color:#333;
+    font-size: 2.1rem;
+
 }
 
-header .navbar ul li a:active,
+header .navbar ul li a.active,
 header .navbar ul li a:hover{
-    color:var(--red);
+    color:var(--blue);
 }
 
 
@@ -130,7 +125,7 @@ header .navbar ul li a:hover{
     font-size:3rem;
     color:#666;
     cursor: pointer;
-    display:block;
+    display:none;
 }
 
 
@@ -434,7 +429,7 @@ header .navbar ul li a:hover{
     background: #FFF;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0,0,0,.3);
-    padding: 130px 30px;
+    padding: 100px 30px;
     margin-top: -20rem;
 }
 
@@ -653,7 +648,7 @@ header .navbar ul li a:hover{
   
 
 
-  @media (max-width:990px){
+  @media (max-width:991px){
 
     html{
         font-size: 50%;
@@ -661,27 +656,17 @@ header .navbar ul li a:hover{
 
 }
 
-@media (max-width:700px){
+@media (max-width:768px){
 
     #menu{
         display:block;
     }
-    .heading span{
-        color:#666;
-    }
-     header .logo{
-         font-size:3.5rem;
-         margin-left: 20rem;
-     }
-
     header .navbar{
         position: fixed;
-        top:0%; 
-        left:0;
-        background:rgb(255, 255, 255);
-        width: 100%;
-        border-radius: .5rem;
-        box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+        top:6.5rem; left:0;
+        width:100%;
+        background:#fff;
+        border-top: .2rem solid rgba(0,0,0,.1);
         transform:scaleY(0);
         transform-origin: top;
         opacity: 0;
@@ -689,32 +674,27 @@ header .navbar ul li a:hover{
 
     header .navbar ul{
         flex-flow: column;
-        padding:2rem;
+        padding:2rem 0;
     }
 
     header .navbar ul li{
-        margin:1rem 0;
+        text-align: center;
         width:100%;
+        margin:1rem 0;
+    }
+
+    header .navbar.nav-toggle{
+        transform:scaleY(0);
+        opacity: 0;
     }
 
     header .navbar ul li a{
-        display:block;
         font-size: 2.5rem;
-        border-bottom: .1rem solid rgba(0,0,0,.1);
-        padding:1.5rem 0;
+        display: block;
     }
+
     .fa-times{
         transform:rotate(180deg);
-    }
-
-
-    header .navbar.nav-toggle{
-        transform:scaleY(1);
-        opacity: 1;
-    }
-    header .navbar.nav-toggle{
-        transform:scaleY(0);
-        opacity: 1;
     }
 
     .home .content{
@@ -723,7 +703,7 @@ header .navbar ul li a:hover{
 
 }
 
-@media (max-width:430px){
+@media (max-width:550px){
 
     html{
         font-size: 50%;
@@ -731,7 +711,7 @@ header .navbar ul li a:hover{
 
     section{
         padding:0 3%;
-        padding-top: 11rem;
+        padding-top: 7.5rem;
     }
 
     .about .row .image img{
