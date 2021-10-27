@@ -1,88 +1,30 @@
 <?php
-require("helper.php");
-$error = array();
+$host_name = 'db5005545224.hosting-data.io';
+$database = 'dbs4665228';
+$user_name = 'dbu25357';
+$password = '<Zeroty_2021_ALEX>';
 
-$username_register = validation_register($_POST['username']);
-if(empty($username_register))
-{
-    $error[] = "Username must be,please enter your username";
+$link = new mysqli($host_name, $user_name, $password, $database);
+
+if ($link->connect_error) {
+  die('<p>Failed to connect to MySQL: '. $link->connect_error .'</p>');
+} else {
+  echo '<p>Connection to MySQL server successfully established.</p>';
 }
-if(preg_match('/^[A-Za-z][a-z0-9]{5,20}$/',$username_register))
-	{
 
-	}
-	else
-	{
-		$error[]="Bad username";
-	}
-$email_register = validation_register_email($_POST['email']);
-if(empty($email_register))
-{
-    $error[] = "Email can't be null!";
+if (!isset($_POST['username'], $_POST['password'], $_POST['email'])) {
+	exit('Please complete the registration form!');
 }
-if(preg_match('/^[a-z0-9-]+(\.[a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,10})$/',$email_register))
-	{
-
-	}
-else
-	{
-		$error[]="BAD EMAIL";
-	}
-
-$password_register = validation_register($_POST['password']);
-if(empty($password_register))
-{
-    $error[] = "Password can't be null!";
+if (empty($_POST['username']) || empty($_POST['password']) || empty($_POST['email'])) {
+	exit('Please complete the registration form');
 }
-if(preg_match('/^(?=.*[0-9])(?=.*[A-Z]).{8,}$/',$password_register))
-	{
-		
-	}
-else
-     {
-		$error []="BAD PASSWORD";
-   }
-$cpassword_register = validation_register($_POST['cpassword']);
-if(empty($cpassword_register))
-{
-    $error[] = "Passwords didn't match";
-}
-if($password_register!= $password_register)
-	{
-		$error[] = "Passwords did not match!";
-	}
-if ( isset($_POST['captcha']) && ($_POST['captcha']!="") )
-{
-        if(strcasecmp($_SESSION['captcha'], $_POST['captcha']) != 0)
-        {
-        $error[] = "Captcha does not match!";
-        }
-        else
-        {
-        
-        }
- }
- $countryuser = $_POST['country'];
 
- if(empty($error))
- {
-     $hidepassword=password_hash($password_register,PASSWORD_BCRYPT);
-     require('msql-connect.php');
-     $command = "INSERT INTO users(ID,username,email,userpassword,country,dateofregistration)";
-     $command .= " VALUES('',?,?,?,?,NOW())";
-     
-     $temp = mysqli_stmt_init($connect);
-     mysqli_stmt_prepare($temp,$command);
-     mysqli_stmt_bind_param($temp,'ssss',$username_register,$email_register,$hidepassword,$countryuser);
-     mysqli_stmt_execute($temp);
-     if(mysqli_stmt_affected_rows($temp)==1)
-     {
-         print "success!";
-     }else{
-         print "Error!";
-     }
- }
- else
- {
-    
- }
+if($command = $link->prepare('INSERT INTO users (username, email, username_password,country) VALUES (?, ?, ?,?)')){
+    $password_hashed = $password_hash($_POST['password'],PASSWORD_BCRYPT);
+    $command->bind_param('ssss',$_POST['username'],$_POST['email'],$password_hashed);
+    $command->execute();
+    echo 'You successfully registered!';
+} else {
+    echo 'Somethins went wrong!';
+}
+?>
