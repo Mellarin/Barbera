@@ -4,7 +4,7 @@ $database = 'dbs4665228';
 $user_name = 'dbu25357';
 $password = 'ALEXLEO2002';
 $link = new mysqli($host_name, $user_name, $password, $database);
-
+$temp1=0;
 if ($link->connect_error) {
   die('<p>Failed to connect to MySQL: '. $link->connect_error .'</p>');
 } else {
@@ -14,30 +14,37 @@ if(isset($_POST['submit']))
 {
 	if(preg_match('/^(?=.*[0-9])(?=.*[A-Z]).{8,}$/',$_POST['password']))
 	{
-		
 	}else{
 		$error1="BAD PASSWORD";
+        $temp1++;
 	}
 	if(preg_match('/^[a-z0-9-]+(\.[a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,10})$/',$_POST['email']))
 	{
-
+       $temp2=1;
 	}
 	else
 	{
 		$error2="BAD EMAIL";
+       $temp1++;
 	}
-	if(preg_match('/^[A-Za-z][a-z0-9]{5,20}$/',$_POST['username']))
+	if(preg_match('/^[A-Za-z][A-Za-z0-9]{5,20}$/',$_POST['username']))
 	{
-
+        $temp3=1;
 	}
 	else
 	{
 		$error3="Bad username";
+      $temp1++;
 	}
 	if($_POST['password'] != $_POST['cpassword'])
 	{
 		$error4 = "Passwords did not match!";
 	}
+    else
+    {
+      $temp4=1;
+      $temp1++;
+    }
 	$accountData = json_decode(file_get_contents("./json/countries.json"), true);
 }
 if ( isset($_POST['captcha']) && ($_POST['captcha']!="") ){
@@ -47,18 +54,7 @@ if ( isset($_POST['captcha']) && ($_POST['captcha']!="") ){
 	$status = "<p style='color:#FFFFFF; font-size:20px'><span style='background-color:#46ab4a;'>Greetings!Сaptcha is correct</span></p>";	
 		}
 	}
- if(empty($error))
- {
-	if ($stmt = $link->prepare('INSERT INTO users (username, email, username_password,country) VALUES (?, ?, ?,?)')) {
-		$passwordmy = $_POST['password'];
-		$passwordd = password_hash($passwordmy, PASSWORD_BCRYPT);
-		$stmt->bind_param('ssss', $_POST['username'],$_POST['email'],$passwordd,$_POST['country']);
-		$stmt->execute();
-		echo 'You have successfully registered, you can now login!';
-	} else {
-		echo 'Could not prepare statement!';
-	}
- }
+ 
 ?>
 <section class="register" id="register">
 <div class="container">
@@ -137,5 +133,22 @@ fetch("countries.json")
 	}
 	)
 </script>
+  <?php
+  if($temp1==0)
+ {
+	if ($stmt = $link->prepare('INSERT INTO users (username, email, username_password,country) VALUES (?, ?, ?,?)')) {
+		$passwordmy = $_POST['password'];
+		$passwordd = password_hash($passwordmy, PASSWORD_BCRYPT);
+		$stmt->bind_param('ssss', $_POST['username'],$_POST['email'],$passwordd,$_POST['country']);
+		$stmt->execute();
+	} else {
+		echo 'Could not prepare statement!';
+	}
+ }
+ else
+ {
+	 
+ }
+  ?>
 </section>
 
