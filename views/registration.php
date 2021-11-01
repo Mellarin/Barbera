@@ -134,9 +134,9 @@ fetch("countries.json")
 	)
 </script>
   <?php
-  if($temp1==0)
+  if(empty($error1) && empty($error2) && empty($error3) && empty($error4))
  {
-	if ($stmt = $link->prepare('INSERT INTO users (username, email, username_password,country) VALUES (?, ?, ?,?)')) {
+	if ($stmt = $link->prepare('INSERT INTO users (username, email, username_password,country) VALUES (?, ?, ?,NOW())')) {
 		$passwordmy = $_POST['password'];
 		$passwordd = password_hash($passwordmy, PASSWORD_BCRYPT);
 		$stmt->bind_param('ssss', $_POST['username'],$_POST['email'],$passwordd,$_POST['country']);
