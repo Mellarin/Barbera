@@ -2,21 +2,20 @@
 $host_name = 'db5005545224.hosting-data.io';
 $database = 'dbs4665228';
 $user_name = 'dbu25357';
-$password = 'ALEXLEO2002';
+$password = 'killerwhale_mellarin2021';
 $link = new mysqli($host_name, $user_name, $password, $database);
-$temp1=0;
 if ($link->connect_error) {
-  die('<p>Failed to connect to MySQL: '. $link->connect_error .'</p>');
+    die('<p>Failed to connect to MySQL: '. $link->connect_error .'</p>');
 } else {
-  echo '<p>Connection to MySQL server successfully established.</p>';
+    echo '<p>Connection to MySQL server successfully established.</p>';
 }
+
 if(isset($_POST['submit']))
 {
 	if(preg_match('/^(?=.*[0-9])(?=.*[A-Z]).{8,}$/',$_POST['password']))
 	{
 	}else{
 		$error1="BAD PASSWORD";
-        $temp1++;
 	}
 	if(preg_match('/^[a-z0-9-]+(\.[a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,10})$/',$_POST['email']))
 	{
@@ -25,7 +24,6 @@ if(isset($_POST['submit']))
 	else
 	{
 		$error2="BAD EMAIL";
-       $temp1++;
 	}
 	if(preg_match('/^[A-Za-z][A-Za-z0-9]{5,20}$/',$_POST['username']))
 	{
@@ -34,7 +32,6 @@ if(isset($_POST['submit']))
 	else
 	{
 		$error3="Bad username";
-      $temp1++;
 	}
 	if($_POST['password'] != $_POST['cpassword'])
 	{
@@ -43,7 +40,6 @@ if(isset($_POST['submit']))
     else
     {
       $temp4=1;
-      $temp1++;
     }
 	$accountData = json_decode(file_get_contents("./json/countries.json"), true);
 }
@@ -58,8 +54,15 @@ if ( isset($_POST['captcha']) && ($_POST['captcha']!="") ){
 ?>
 <section class="register" id="register">
 <div class="container">
-		<form action="" method="post" class="login-email">
+		<form action="index.php?action=signup" method="post" class="login-email">
             <p class="login-text" style="font-size: 7rem; font-weight: 900;">Register</p>
+			<?php 
+			  if($_SESSION['success_message'])
+			  {
+				  echo '<p class="login-text" style="font-size: 4rem; font-weight: 900;">Success registration!</p>' ;
+			  }
+              unset($_SESSION['success_message']);
+			?>
 			<div class="input-group">
 				<input type="text" placeholder="Username" name="username" value="" required>
 				<?php if(isset($error3))
@@ -77,21 +80,26 @@ if ( isset($_POST['captcha']) && ($_POST['captcha']!="") ){
 				?>
 			</div>
 			<div class="input-group">
-				<input type="password" placeholder="Password" name="password" value="" required>
-				<?php if(isset($error1))
-				{
-					echo $error1;
+			<?php 
+				if($_SESSION['msg']){
+					echo $_SESSION['msg'];
 				}
-				?>
+				unset($_SESSION['msg']);
+			?>
+				<input type="password" placeholder="Password" name="password" value="" required>
             </div>
             <div class="input-group">
-				<input type="password" placeholder="Confirm Password" name="cpassword" value="" required>
-				<?php if(isset($error4))
-				{
-					echo $error4;
+				<?php 
+				if($_SESSION['msg']){
+					echo $_SESSION['msg'];
 				}
+				unset($_SESSION['msg']);
 				?>
+				<input type="password" placeholder="Confirm Password" name="cpassword" value="" required>
 			</div>
+            <div class="input-group">
+                <input type="number" placeholder="+380" name="number" value="" required>
+            </div>
 			<div class="input-group">
 				<a class="Chooose" style="font-size:2.5rem">Choose country</a>
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -111,7 +119,7 @@ if ( isset($_POST['captcha']) && ($_POST['captcha']!="") ){
 			 </div>
 			    <br>
 				<br>
-			<p class="login-register-text">Have an account? <a href="index.php">Login Here</a>.</p>
+			<p class="login-register-text">Have an account? <a href="index.php?action=login">Login Here</a>.</p>
           
 		</form>
 	</div>
@@ -133,22 +141,5 @@ fetch("countries.json")
 	}
 	)
 </script>
-  <?php
-  if(empty($error1) && empty($error2) && empty($error3) && empty($error4))
- {
-	if ($stmt = $link->prepare('INSERT INTO users (username, email, username_password,country) VALUES (?, ?, ?,NOW())')) {
-		$passwordmy = $_POST['password'];
-		$passwordd = password_hash($passwordmy, PASSWORD_BCRYPT);
-		$stmt->bind_param('ssss', $_POST['username'],$_POST['email'],$passwordd,$_POST['country']);
-		$stmt->execute();
-	} else {
-		echo 'Could not prepare statement!';
-	}
- }
- else
- {
-	 
- }
-  ?>
 </section>
 

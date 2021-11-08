@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2eed0d56-755f-487f-b2c6-cae848c2a521" name="Barberka_T" url="http://lightdesign.info">
+        <fileTransfer accessType="SFTP" host="access889109072.webspace-data.io" port="22" sshConfigId="62813ce1-a282-4293-9d07-e420e837d9a2" sshConfig="u106298751@access889109072.webspace-data.io:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,621 @@
+Nov  1 06:05:58 10.71.61.0 tmp106298751-1477 Connection from 10.71.61.0 port 35594 on 74.208.59.197 port 22
+Nov  1 06:05:59 10.71.61.0 tmp106298751-1477 Accepted password for tmp106298751-1477 from 10.71.61.0 port 35594 ssh2
+Nov  1 06:05:59 10.71.61.0 tmp106298751-1477 Starting session: subsystem 'sftp' for tmp106298751-1477 from 10.71.61.0 port 35594 id 0
+Nov  1 06:05:59 10.71.61.0 tmp106298751-1477 session opened for local user tmp106298751-1477 from [10.71.61.0]
+Nov  1 06:06:09 10.71.61.0 tmp106298751-1477 open "/views/registration.php" flags READ mode 0666
+Nov  1 06:06:10 10.71.61.0 tmp106298751-1477 close "/views/registration.php" bytes read 4320 written 0
+Nov  1 06:06:10 10.71.61.0 tmp106298751-1477 [10.71.61.0|get|1|4320|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 06:06:12 10.71.61.0 tmp106298751-311 Connection from 10.71.61.0 port 42400 on 74.208.59.197 port 22
+Nov  1 06:06:13 10.71.61.0 tmp106298751-311 Accepted password for tmp106298751-311 from 10.71.61.0 port 42400 ssh2
+Nov  1 06:10:29 10.71.61.0 tmp106298751-1477 open "/views/registration.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Nov  1 06:10:29 10.71.61.0 tmp106298751-1477 close "/views/registration.php" bytes read 0 written 4696
+Nov  1 06:10:29 10.71.61.0 tmp106298751-1477 [10.71.61.0|put|0|4696|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 06:14:35 10.71.61.0 tmp106298751-1477 open "/views/registration.php" flags READ mode 0666
+Nov  1 06:14:35 10.71.61.0 tmp106298751-1477 close "/views/registration.php" bytes read 4696 written 0
+Nov  1 06:14:35 10.71.61.0 tmp106298751-1477 [10.71.61.0|get|0|4696|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 06:14:39 10.71.61.0 tmp106298751-1477 open "/views/registration.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Nov  1 06:14:39 10.71.61.0 tmp106298751-1477 close "/views/registration.php" bytes read 0 written 4693
+Nov  1 06:14:39 10.71.61.0 tmp106298751-1477 [10.71.61.0|put|0|4693|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 06:16:48 10.71.61.0 tmp106298751-1477 open "/views/registration.php" flags READ mode 0666
+Nov  1 06:16:48 10.71.61.0 tmp106298751-1477 close "/views/registration.php" bytes read 4693 written 0
+Nov  1 06:16:48 10.71.61.0 tmp106298751-1477 [10.71.61.0|get|0|4693|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 06:16:51 10.71.61.0 tmp106298751-1477 open "/views/registration.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Nov  1 06:16:52 10.71.61.0 tmp106298751-1477 close "/views/registration.php" bytes read 0 written 4320
+Nov  1 06:16:52 10.71.61.0 tmp106298751-1477 [10.71.61.0|put|1|4320|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 06:18:04 10.71.61.0 tmp106298751-1477 open "/views/registration.php" flags READ mode 0666
+Nov  1 06:18:04 10.71.61.0 tmp106298751-1477 close "/views/registration.php" bytes read 4320 written 0
+Nov  1 06:18:04 10.71.61.0 tmp106298751-1477 [10.71.61.0|get|0|4320|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 06:22:05 10.71.61.0 tmp106298751-1477 open "/views/registration.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Nov  1 06:22:05 10.71.61.0 tmp106298751-1477 close "/views/registration.php" bytes read 0 written 4588
+Nov  1 06:22:05 10.71.61.0 tmp106298751-1477 [10.71.61.0|put|0|4588|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 06:22:07 10.71.61.0 tmp106298751-1477 open "/views/registration.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Nov  1 06:22:08 10.71.61.0 tmp106298751-1477 close "/views/registration.php" bytes read 0 written 4588
+Nov  1 06:22:08 10.71.61.0 tmp106298751-1477 [10.71.61.0|put|0|4588|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 06:23:11 10.71.61.0 tmp106298751-1477 open "/views/registration.php" flags READ mode 0666
+Nov  1 06:23:12 10.71.61.0 tmp106298751-1477 close "/views/registration.php" bytes read 4588 written 0
+Nov  1 06:23:12 10.71.61.0 tmp106298751-1477 [10.71.61.0|get|1|4588|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 06:23:15 10.71.61.0 tmp106298751-1477 open "/views/registration.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Nov  1 06:23:15 10.71.61.0 tmp106298751-1477 close "/views/registration.php" bytes read 0 written 4320
+Nov  1 06:23:15 10.71.61.0 tmp106298751-1477 [10.71.61.0|put|0|4320|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 06:23:39 10.71.61.0 tmp106298751-1477 open "/views/registration.php" flags READ mode 0666
+Nov  1 06:23:39 10.71.61.0 tmp106298751-1477 close "/views/registration.php" bytes read 4320 written 0
+Nov  1 06:23:39 10.71.61.0 tmp106298751-1477 [10.71.61.0|get|0|4320|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 06:23:42 10.71.61.0 tmp106298751-1477 open "/views/registration.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Nov  1 06:23:42 10.71.61.0 tmp106298751-1477 close "/views/registration.php" bytes read 0 written 4588
+Nov  1 06:23:42 10.71.61.0 tmp106298751-1477 [10.71.61.0|put|0|4588|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 07:24:06 10.71.61.0 tmp106298751-1477 session closed for local user tmp106298751-1477 from [10.71.61.0]
+Nov  1 07:24:06 10.71.61.0 tmp106298751-1477 Connection closed by 10.71.61.0 port 35594
+Nov  1 07:24:06 10.71.61.0 tmp106298751-311 Connection closed by 10.71.61.0 port 42400
+Nov  1 08:04:04 10.71.60.0 u106298751 Connection from 10.71.60.0 port 56322 on 74.208.59.197 port 22
+Nov  1 08:04:05 10.71.60.0 u106298751 Accepted password for u106298751 from 10.71.60.0 port 56322 ssh2
+Nov  1 08:04:06 10.71.60.0 u106298751 Starting session: subsystem 'sftp' for u106298751 from 10.71.60.0 port 56322 id 0
+Nov  1 08:04:06 10.71.60.0 u106298751 session opened for local user u106298751 from [10.71.60.0]
+Nov  1 08:04:13 10.71.60.0 u106298751 Connection from 10.71.60.0 port 44808 on 74.208.59.197 port 22
+Nov  1 08:04:13 10.71.60.0 u106298751 Accepted password for u106298751 from 10.71.60.0 port 44808 ssh2
+Nov  1 08:04:14 10.71.60.0 u106298751 Starting session: subsystem 'sftp' for u106298751 from 10.71.60.0 port 44808 id 0
+Nov  1 08:04:14 10.71.60.0 u106298751 session opened for local user u106298751 from [10.71.60.0]
+Nov  1 08:04:18 10.71.60.0 u106298751 open "/views/login.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Nov  1 08:04:18 10.71.60.0 u106298751 close "/views/login.php" bytes read 0 written 1587
+Nov  1 08:04:18 10.71.60.0 u106298751 [10.71.60.0|put|0|1587|0|0|0|2f76696577732f6c6f67696e2e706870|]
+Nov  1 08:05:18 10.71.60.0 u106298751 session closed for local user u106298751 from [10.71.60.0]
+Nov  1 08:05:19 10.71.60.0 u106298751 Connection closed by 10.71.60.0 port 44808
+Nov  1 08:06:30 10.71.60.0 u106298751 Connection from 10.71.60.0 port 40590 on 74.208.59.197 port 22
+Nov  1 08:06:31 10.71.60.0 u106298751 Accepted password for u106298751 from 10.71.60.0 port 40590 ssh2
+Nov  1 08:06:31 10.71.60.0 u106298751 Starting session: subsystem 'sftp' for u106298751 from 10.71.60.0 port 40590 id 0
+Nov  1 08:06:31 10.71.60.0 u106298751 session opened for local user u106298751 from [10.71.60.0]
+Nov  1 08:06:32 10.71.60.0 u106298751 open "/login.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Nov  1 08:06:33 10.71.60.0 u106298751 close "/login.php" bytes read 0 written 1587
+Nov  1 08:06:33 10.71.60.0 u106298751 [10.71.60.0|put|1|1587|0|0|0|2f6c6f67696e2e706870|]
+Nov  1 08:06:35 10.71.60.0 u106298751 rename old "/login.php" new "/views/login.php"
+Nov  1 08:06:35 10.71.60.0 u106298751 [10.71.60.0|rename|0|0|0|0|17|2f6c6f67696e2e706870|2f76696577732f6c6f67696e2e706870]
+Nov  1 08:06:35 10.71.60.0 u106298751 sent status Failure
+Nov  1 08:06:45 10.71.60.0 u106298751 rename old "/login.php" new "/views/login.php"
+Nov  1 08:06:45 10.71.60.0 u106298751 [10.71.60.0|rename|0|0|0|0|17|2f6c6f67696e2e706870|2f76696577732f6c6f67696e2e706870]
+Nov  1 08:06:45 10.71.60.0 u106298751 sent status Failure
+Nov  1 08:07:01 10.71.60.0 u106298751 rename old "/login.php" new "/views/login.php"
+Nov  1 08:07:01 10.71.60.0 u106298751 [10.71.60.0|rename|0|0|0|0|17|2f6c6f67696e2e706870|2f76696577732f6c6f67696e2e706870]
+Nov  1 08:07:01 10.71.60.0 u106298751 sent status Failure
+Nov  1 08:07:09 10.71.60.0 u106298751 remove name "/login.php"
+Nov  1 08:07:09 10.71.60.0 u106298751 [10.71.60.0|rm|0|0|0|0|0|2f6c6f67696e2e706870|]
+Nov  1 08:07:15 10.71.60.0 u106298751 open "/views/login.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Nov  1 08:07:15 10.71.60.0 u106298751 close "/views/login.php" bytes read 0 written 1587
+Nov  1 08:07:15 10.71.60.0 u106298751 [10.71.60.0|put|0|1587|0|0|0|2f76696577732f6c6f67696e2e706870|]
+Nov  1 08:08:15 10.71.60.0 u106298751 session closed for local user u106298751 from [10.71.60.0]
+Nov  1 08:08:15 10.71.60.0 u106298751 Connection closed by 10.71.60.0 port 40590
+Nov  1 08:13:03 10.71.60.0 u106298751 Connection from 10.71.60.0 port 16234 on 74.208.59.197 port 22
+Nov  1 08:13:04 10.71.60.0 u106298751 Accepted password for u106298751 from 10.71.60.0 port 16234 ssh2
+Nov  1 08:13:04 10.71.60.0 u106298751 Starting session: subsystem 'sftp' for u106298751 from 10.71.60.0 port 16234 id 0
+Nov  1 08:13:04 10.71.60.0 u106298751 session opened for local user u106298751 from [10.71.60.0]
+Nov  1 08:13:10 10.71.60.0 u106298751 open "/views/login.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Nov  1 08:13:11 10.71.60.0 u106298751 close "/views/login.php" bytes read 0 written 1587
+Nov  1 08:13:11 10.71.60.0 u106298751 [10.71.60.0|put|1|1587|0|0|0|2f76696577732f6c6f67696e2e706870|]
+Nov  1 08:13:33 10.71.61.0 tmp106298751-329 Connection from 10.71.61.0 port 27808 on 74.208.59.197 port 22
+Nov  1 08:13:33 10.71.61.0 tmp106298751-329 Accepted password for tmp106298751-329 from 10.71.61.0 port 27808 ssh2
+Nov  1 08:13:34 10.71.61.0 tmp106298751-329 Starting session: subsystem 'sftp' for tmp106298751-329 from 10.71.61.0 port 27808 id 0
+Nov  1 08:13:34 10.71.61.0 tmp106298751-329 session opened for local user tmp106298751-329 from [10.71.61.0]
+Nov  1 08:13:34 10.71.61.0 tmp106298751-329 open "/views/login.php" flags READ mode 0666
+Nov  1 08:13:34 10.71.61.0 tmp106298751-329 close "/views/login.php" bytes read 1587 written 0
+Nov  1 08:13:34 10.71.61.0 tmp106298751-329 [10.71.61.0|get|0|1587|0|0|0|2f76696577732f6c6f67696e2e706870|]
+Nov  1 08:13:37 10.71.61.0 tmp106298751-829 Connection from 10.71.61.0 port 29306 on 74.208.59.197 port 22
+Nov  1 08:13:37 10.71.61.0 tmp106298751-829 Accepted password for tmp106298751-829 from 10.71.61.0 port 29306 ssh2
+Nov  1 08:14:09 10.71.61.0 tmp106298751-329 open "/views/login.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Nov  1 08:14:09 10.71.61.0 tmp106298751-329 close "/views/login.php" bytes read 0 written 1886
+Nov  1 08:14:09 10.71.61.0 tmp106298751-329 [10.71.61.0|put|0|1886|0|0|0|2f76696577732f6c6f67696e2e706870|]
+Nov  1 08:14:11 10.71.60.0 u106298751 session closed for local user u106298751 from [10.71.60.0]
+Nov  1 08:14:11 10.71.60.0 u106298751 Connection closed by 10.71.60.0 port 16234
+Nov  1 08:32:27 10.71.61.0 tmp106298751-329 open "/views/login.php" flags READ mode 0666
+Nov  1 08:32:27 10.71.61.0 tmp106298751-329 close "/views/login.php" bytes read 1886 written 0
+Nov  1 08:32:27 10.71.61.0 tmp106298751-329 [10.71.61.0|get|0|1886|0|0|0|2f76696577732f6c6f67696e2e706870|]
+Nov  1 08:32:31 10.71.61.0 tmp106298751-329 open "/views/login.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Nov  1 08:32:31 10.71.61.0 tmp106298751-329 close "/views/login.php" bytes read 0 written 1907
+Nov  1 08:32:31 10.71.61.0 tmp106298751-329 [10.71.61.0|put|0|1907|0|0|0|2f76696577732f6c6f67696e2e706870|]
+Nov  1 08:32:46 10.71.61.0 tmp106298751-329 open "/views/registration.php" flags READ mode 0666
+Nov  1 08:32:46 10.71.61.0 tmp106298751-329 close "/views/registration.php" bytes read 4588 written 0
+Nov  1 08:32:46 10.71.61.0 tmp106298751-329 [10.71.61.0|get|0|4588|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 08:32:49 10.71.61.0 tmp106298751-329 open "/views/registration.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Nov  1 08:32:49 10.71.61.0 tmp106298751-329 close "/views/registration.php" bytes read 0 written 4588
+Nov  1 08:32:49 10.71.61.0 tmp106298751-329 [10.71.61.0|put|0|4588|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 08:35:36 10.71.61.0 tmp106298751-329 open "/views/registration.php" flags READ mode 0666
+Nov  1 08:35:36 10.71.61.0 tmp106298751-329 close "/views/registration.php" bytes read 4588 written 0
+Nov  1 08:35:36 10.71.61.0 tmp106298751-329 [10.71.61.0|get|0|4588|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 08:36:45 10.71.61.0 tmp106298751-329 open "/views/registration.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Nov  1 08:36:45 10.71.61.0 tmp106298751-329 close "/views/registration.php" bytes read 0 written 4324
+Nov  1 08:36:45 10.71.61.0 tmp106298751-329 [10.71.61.0|put|0|4324|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 08:37:20 10.71.61.0 tmp106298751-329 open "/views/registration.php" flags READ mode 0666
+Nov  1 08:37:20 10.71.61.0 tmp106298751-329 close "/views/registration.php" bytes read 4324 written 0
+Nov  1 08:37:20 10.71.61.0 tmp106298751-329 [10.71.61.0|get|0|4324|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 08:37:24 10.71.61.0 tmp106298751-329 open "/views/registration.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Nov  1 08:37:24 10.71.61.0 tmp106298751-329 close "/views/registration.php" bytes read 0 written 4320
+Nov  1 08:37:24 10.71.61.0 tmp106298751-329 [10.71.61.0|put|0|4320|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 08:37:57 10.71.61.0 tmp106298751-329 open "/views/registration.php" flags READ mode 0666
+Nov  1 08:37:57 10.71.61.0 tmp106298751-329 close "/views/registration.php" bytes read 4320 written 0
+Nov  1 08:37:57 10.71.61.0 tmp106298751-329 [10.71.61.0|get|0|4320|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 08:38:00 10.71.61.0 tmp106298751-329 open "/views/registration.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Nov  1 08:38:00 10.71.61.0 tmp106298751-329 close "/views/registration.php" bytes read 0 written 4324
+Nov  1 08:38:00 10.71.61.0 tmp106298751-329 [10.71.61.0|put|0|4324|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 08:41:45 10.71.61.0 tmp106298751-329 open "/views/registration.php" flags READ mode 0666
+Nov  1 08:41:45 10.71.61.0 tmp106298751-329 close "/views/registration.php" bytes read 4324 written 0
+Nov  1 08:41:45 10.71.61.0 tmp106298751-329 [10.71.61.0|get|0|4324|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 08:41:50 10.71.61.0 tmp106298751-329 open "/views/registration.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Nov  1 08:41:50 10.71.61.0 tmp106298751-329 close "/views/registration.php" bytes read 0 written 4320
+Nov  1 08:41:50 10.71.61.0 tmp106298751-329 [10.71.61.0|put|0|4320|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 09:03:31 10.71.61.0 tmp106298751-329 open "/views/login.php" flags READ mode 0666
+Nov  1 09:03:32 10.71.61.0 tmp106298751-329 close "/views/login.php" bytes read 1907 written 0
+Nov  1 09:03:32 10.71.61.0 tmp106298751-329 [10.71.61.0|get|1|1907|0|0|0|2f76696577732f6c6f67696e2e706870|]
+Nov  1 09:04:04 10.71.61.0 tmp106298751-329 open "/views/login.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Nov  1 09:04:05 10.71.61.0 tmp106298751-329 close "/views/login.php" bytes read 0 written 1892
+Nov  1 09:04:05 10.71.61.0 tmp106298751-329 [10.71.61.0|put|1|1892|0|0|0|2f76696577732f6c6f67696e2e706870|]
+Nov  1 09:04:49 10.71.61.0 tmp106298751-329 open "/views/registration.php" flags READ mode 0666
+Nov  1 09:04:49 10.71.61.0 tmp106298751-329 close "/views/registration.php" bytes read 4320 written 0
+Nov  1 09:04:49 10.71.61.0 tmp106298751-329 [10.71.61.0|get|0|4320|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 09:05:33 10.71.61.0 tmp106298751-329 open "/views/registration.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Nov  1 09:05:33 10.71.61.0 tmp106298751-329 close "/views/registration.php" bytes read 0 written 4333
+Nov  1 09:05:33 10.71.61.0 tmp106298751-329 [10.71.61.0|put|0|4333|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  1 09:10:23 10.71.61.0 tmp106298751-329 open "/views/login.php" flags READ mode 0666
+Nov  1 09:10:23 10.71.61.0 tmp106298751-329 close "/views/login.php" bytes read 1892 written 0
+Nov  1 09:10:23 10.71.61.0 tmp106298751-329 [10.71.61.0|get|0|1892|0|0|0|2f76696577732f6c6f67696e2e706870|]
+Nov  1 09:10:53 10.71.61.0 tmp106298751-329 open "/views/login.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Nov  1 09:10:53 10.71.61.0 tmp106298751-329 close "/views/login.php" bytes read 0 written 1888
+Nov  1 09:10:53 10.71.61.0 tmp106298751-329 [10.71.61.0|put|0|1888|0|0|0|2f76696577732f6c6f67696e2e706870|]
+Nov  1 09:12:39 10.71.60.0 u106298751 session closed for local user u106298751 from [10.71.60.0]
+Nov  1 09:12:40 10.71.60.0 u106298751 Connection closed by 10.71.60.0 port 56322
+Nov  1 10:11:01 10.71.61.0 tmp106298751-329 session closed for local user tmp106298751-329 from [10.71.61.0]
+Nov  1 10:11:01 10.71.61.0 tmp106298751-329 Connection closed by 10.71.61.0 port 27808
+Nov  1 10:11:01 10.71.61.0 tmp106298751-829 Connection closed by 10.71.61.0 port 29306
+Nov  7 12:32:02 10.71.60.0 u106298751 Connection from 10.71.60.0 port 24952 on 74.208.59.197 port 22
+Nov  7 12:32:03 10.71.60.0 u106298751 Accepted password for u106298751 from 10.71.60.0 port 24952 ssh2
+Nov  7 12:32:03 10.71.60.0 u106298751 Starting session: subsystem 'sftp' for u106298751 from 10.71.60.0 port 24952 id 0
+Nov  7 12:32:03 10.71.60.0 u106298751 session opened for local user u106298751 from [10.71.60.0]
+Nov  7 12:32:17 10.71.60.0 u106298751 Connection from 10.71.60.0 port 36078 on 74.208.59.197 port 22
+Nov  7 12:32:18 10.71.60.0 u106298751 Accepted password for u106298751 from 10.71.60.0 port 36078 ssh2
+Nov  7 12:32:17 10.71.60.0 u106298751 Connection from 10.71.60.0 port 53098 on 74.208.59.197 port 22
+Nov  7 12:32:18 10.71.60.0 u106298751 Accepted password for u106298751 from 10.71.60.0 port 53098 ssh2
+Nov  7 12:32:18 10.71.60.0 u106298751 Starting session: subsystem 'sftp' for u106298751 from 10.71.60.0 port 36078 id 0
+Nov  7 12:32:18 10.71.60.0 u106298751 Starting session: subsystem 'sftp' for u106298751 from 10.71.60.0 port 53098 id 0
+Nov  7 12:32:18 10.71.60.0 u106298751 session opened for local user u106298751 from [10.71.60.0]
+Nov  7 12:32:18 10.71.60.0 u106298751 session opened for local user u106298751 from [10.71.60.0]
+Nov  7 12:32:19 10.71.60.0 u106298751 open "/captcha.php" flags READ mode 0666
+Nov  7 12:32:19 10.71.60.0 u106298751 open "/countries.json" flags READ mode 0666
+Nov  7 12:32:20 10.71.60.0 u106298751 close "/captcha.php" bytes read 2425 written 0
+Nov  7 12:32:20 10.71.60.0 u106298751 [10.71.60.0|get|1|2425|0|0|0|2f636170746368612e706870|]
+Nov  7 12:32:20 10.71.60.0 u106298751 close "/countries.json" bytes read 10003 written 0
+Nov  7 12:32:20 10.71.60.0 u106298751 [10.71.60.0|get|1|10003|0|0|0|2f636f756e74726965732e6a736f6e|]
+Nov  7 12:32:20 10.71.60.0 u106298751 sent status No such file
+Nov  7 12:32:20 10.71.60.0 u106298751 open "/monofont.ttf" flags READ mode 0666
+Nov  7 12:32:20 10.71.60.0 u106298751 open "/index.php" flags READ mode 0666
+Nov  7 12:32:21 10.71.60.0 u106298751 close "/index.php" bytes read 316 written 0
+Nov  7 12:32:21 10.71.60.0 u106298751 [10.71.60.0|get|1|316|0|0|0|2f696e6465782e706870|]
+Nov  7 12:32:21 10.71.60.0 u106298751 close "/monofont.ttf" bytes read 41036 written 0
+Nov  7 12:32:21 10.71.60.0 u106298751 [10.71.60.0|get|1|41036|0|0|0|2f6d6f6e6f666f6e742e747466|]
+Nov  7 12:32:22 10.71.60.0 u106298751 open "/logs/access.log.44.7" flags READ mode 0666
+Nov  7 12:32:22 10.71.60.0 u106298751 open "/logs/access.log.44.6.gz" flags READ mode 0666
+Nov  7 12:32:22 10.71.60.0 u106298751 close "/logs/access.log.44.7" bytes read 18589 written 0
+Nov  7 12:32:22 10.71.60.0 u106298751 [10.71.60.0|get|0|18589|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e37|]
+Nov  7 12:32:23 10.71.60.0 u106298751 close "/logs/access.log.44.6.gz" bytes read 1319 written 0
+Nov  7 12:32:23 10.71.60.0 u106298751 [10.71.60.0|get|0|1319|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e362e677a|]
+Nov  7 12:32:23 10.71.60.0 u106298751 open "/logs/access.log.44.5.gz" flags READ mode 0666
+Nov  7 12:32:23 10.71.60.0 u106298751 open "/logs/access.log.44.4.gz" flags READ mode 0666
+Nov  7 12:32:23 10.71.60.0 u106298751 close "/logs/access.log.44.5.gz" bytes read 2339 written 0
+Nov  7 12:32:23 10.71.60.0 u106298751 [10.71.60.0|get|0|2339|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e352e677a|]
+Nov  7 12:32:23 10.71.60.0 u106298751 close "/logs/access.log.44.4.gz" bytes read 1338 written 0
+Nov  7 12:32:23 10.71.60.0 u106298751 [10.71.60.0|get|0|1338|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e342e677a|]
+Nov  7 12:32:24 10.71.60.0 u106298751 open "/logs/access.log.44.3.gz" flags READ mode 0666
+Nov  7 12:32:24 10.71.60.0 u106298751 open "/logs/access.log.44.2.gz" flags READ mode 0666
+Nov  7 12:32:24 10.71.60.0 u106298751 close "/logs/access.log.44.3.gz" bytes read 1336 written 0
+Nov  7 12:32:24 10.71.60.0 u106298751 [10.71.60.0|get|0|1336|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e332e677a|]
+Nov  7 12:32:24 10.71.60.0 u106298751 close "/logs/access.log.44.2.gz" bytes read 1726 written 0
+Nov  7 12:32:24 10.71.60.0 u106298751 [10.71.60.0|get|0|1726|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e322e677a|]
+Nov  7 12:32:25 10.71.60.0 u106298751 open "/logs/access.log.44.1.gz" flags READ mode 0666
+Nov  7 12:32:25 10.71.60.0 u106298751 open "/logs/sftp.log" flags READ mode 0666
+Nov  7 12:32:25 10.71.60.0 u106298751 close "/logs/access.log.44.1.gz" bytes read 3793 written 0
+Nov  7 12:32:25 10.71.60.0 u106298751 [10.71.60.0|get|0|3793|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e312e677a|]
+Nov  7 12:32:26 10.71.60.0 u106298751 close "/logs/sftp.log" bytes read 21459 written 0
+Nov  7 12:32:26 10.71.60.0 u106298751 [10.71.60.0|get|1|21459|0|0|0|2f6c6f67732f736674702e6c6f67|]
+Nov  7 12:32:26 10.71.60.0 u106298751 open "/logs/sftp.log.43.gz" flags READ mode 0666
+Nov  7 12:32:26 10.71.60.0 u106298751 open "/logs/access.log.43.7.gz" flags READ mode 0666
+Nov  7 12:32:26 10.71.60.0 u106298751 close "/logs/sftp.log.43.gz" bytes read 7577 written 0
+Nov  7 12:32:26 10.71.60.0 u106298751 [10.71.60.0|get|0|7577|0|0|0|2f6c6f67732f736674702e6c6f672e34332e677a|]
+Nov  7 12:32:26 10.71.60.0 u106298751 close "/logs/access.log.43.7.gz" bytes read 1303 written 0
+Nov  7 12:32:26 10.71.60.0 u106298751 [10.71.60.0|get|0|1303|0|0|0|2f6c6f67732f6163636573732e6c6f672e34332e372e677a|]
+Nov  7 12:32:27 10.71.60.0 u106298751 open "/logs/access.log.43.6.gz" flags READ mode 0666
+Nov  7 12:32:27 10.71.60.0 u106298751 open "/logs/access.log.43.5.gz" flags READ mode 0666
+Nov  7 12:32:27 10.71.60.0 u106298751 close "/logs/access.log.43.6.gz" bytes read 2489 written 0
+Nov  7 12:32:27 10.71.60.0 u106298751 [10.71.60.0|get|0|2489|0|0|0|2f6c6f67732f6163636573732e6c6f672e34332e362e677a|]
+Nov  7 12:32:27 10.71.60.0 u106298751 close "/logs/access.log.43.5.gz" bytes read 2335 written 0
+Nov  7 12:32:27 10.71.60.0 u106298751 [10.71.60.0|get|0|2335|0|0|0|2f6c6f67732f6163636573732e6c6f672e34332e352e677a|]
+Nov  7 12:32:28 10.71.60.0 u106298751 open "/logs/access.log.43.4.gz" flags READ mode 0666
+Nov  7 12:32:28 10.71.60.0 u106298751 open "/logs/access.log.43.3.gz" flags READ mode 0666
+Nov  7 12:32:28 10.71.60.0 u106298751 close "/logs/access.log.43.4.gz" bytes read 3481 written 0
+Nov  7 12:32:28 10.71.60.0 u106298751 [10.71.60.0|get|0|3481|0|0|0|2f6c6f67732f6163636573732e6c6f672e34332e342e677a|]
+Nov  7 12:32:28 10.71.60.0 u106298751 close "/logs/access.log.43.3.gz" bytes read 8445 written 0
+Nov  7 12:32:28 10.71.60.0 u106298751 [10.71.60.0|get|0|8445|0|0|0|2f6c6f67732f6163636573732e6c6f672e34332e332e677a|]
+Nov  7 12:32:29 10.71.60.0 u106298751 open "/logs/last_traffic" flags READ mode 0666
+Nov  7 12:32:29 10.71.60.0 u106298751 open "/logs/traffic.db" flags READ mode 0666
+Nov  7 12:32:29 10.71.60.0 u106298751 close "/logs/last_traffic" bytes read 0 written 0
+Nov  7 12:32:29 10.71.60.0 u106298751 [10.71.60.0|get|0|0|0|0|0|2f6c6f67732f6c6173745f74726166666963|]
+Nov  7 12:32:29 10.71.60.0 u106298751 close "/logs/traffic.db" bytes read 12288 written 0
+Nov  7 12:32:29 10.71.60.0 u106298751 [10.71.60.0|get|0|12288|0|0|0|2f6c6f67732f747261666669632e6462|]
+Nov  7 12:32:30 10.71.60.0 u106298751 open "/logs/info.py" flags READ mode 0666
+Nov  7 12:32:30 10.71.60.0 u106298751 open "/logs/info.php5" flags READ mode 0666
+Nov  7 12:32:30 10.71.60.0 u106298751 close "/logs/info.py" bytes read 6384 written 0
+Nov  7 12:32:30 10.71.60.0 u106298751 [10.71.60.0|get|0|6384|0|0|0|2f6c6f67732f696e666f2e7079|]
+Nov  7 12:32:30 10.71.60.0 u106298751 close "/logs/info.php5" bytes read 21 written 0
+Nov  7 12:32:30 10.71.60.0 u106298751 [10.71.60.0|get|0|21|0|0|0|2f6c6f67732f696e666f2e70687035|]
+Nov  7 12:32:31 10.71.60.0 u106298751 open "/logs/info.pl" flags READ mode 0666
+Nov  7 12:32:31 10.71.60.0 u106298751 open "/logs/.htaccess" flags READ mode 0666
+Nov  7 12:32:31 10.71.60.0 u106298751 close "/logs/info.pl" bytes read 4176 written 0
+Nov  7 12:32:31 10.71.60.0 u106298751 [10.71.60.0|get|0|4176|0|0|0|2f6c6f67732f696e666f2e706c|]
+Nov  7 12:32:31 10.71.60.0 u106298751 close "/logs/.htaccess" bytes read 268 written 0
+Nov  7 12:32:31 10.71.60.0 u106298751 [10.71.60.0|get|0|268|0|0|0|2f6c6f67732f2e6874616363657373|]
+Nov  7 12:32:32 10.71.60.0 u106298751 open "/logs/traffic.html/11.html" flags READ mode 0666
+Nov  7 12:32:32 10.71.60.0 u106298751 open "/logs/traffic.html/.md5sums" flags READ mode 0666
+Nov  7 12:32:32 10.71.60.0 u106298751 sent status Permission denied
+Nov  7 12:32:33 10.71.60.0 u106298751 close "/logs/traffic.html/11.html" bytes read 3056 written 0
+Nov  7 12:32:33 10.71.60.0 u106298751 [10.71.60.0|get|1|3056|0|0|0|2f6c6f67732f747261666669632e68746d6c2f31312e68746d6c|]
+Nov  7 12:32:33 10.71.60.0 u106298751 open "/logs/traffic.html/.md5sums" flags READ mode 0666
+Nov  7 12:32:33 10.71.60.0 u106298751 sent status Permission denied
+Nov  7 12:32:33 10.71.60.0 u106298751 open "/logs/traffic.html/10.html" flags READ mode 0666
+Nov  7 12:32:33 10.71.60.0 u106298751 open "/logs/traffic.html/.md5sums" flags READ mode 0666
+Nov  7 12:32:33 10.71.60.0 u106298751 sent status Permission denied
+Nov  7 12:32:34 10.71.60.0 u106298751 close "/logs/traffic.html/10.html" bytes read 2721 written 0
+Nov  7 12:32:34 10.71.60.0 u106298751 [10.71.60.0|get|1|2721|0|0|0|2f6c6f67732f747261666669632e68746d6c2f31302e68746d6c|]
+Nov  7 12:32:34 10.71.60.0 u106298751 open "/logs/traffic.html/index.html" flags READ mode 0666
+Nov  7 12:32:34 10.71.60.0 u106298751 open "/logs/traffic.html/.htaccess" flags READ mode 0666
+Nov  7 12:32:34 10.71.60.0 u106298751 close "/logs/traffic.html/index.html" bytes read 2967 written 0
+Nov  7 12:32:34 10.71.60.0 u106298751 [10.71.60.0|get|0|2967|0|0|0|2f6c6f67732f747261666669632e68746d6c2f696e6465782e68746d6c|]
+Nov  7 12:32:35 10.71.60.0 u106298751 close "/logs/traffic.html/.htaccess" bytes read 23 written 0
+Nov  7 12:32:35 10.71.60.0 u106298751 [10.71.60.0|get|1|23|0|0|0|2f6c6f67732f747261666669632e68746d6c2f2e6874616363657373|]
+Nov  7 12:32:35 10.71.60.0 u106298751 open "/logs/access.log.44.7" flags READ mode 0666
+Nov  7 12:32:36 10.71.60.0 u106298751 open "/views/regis.php" flags READ mode 0666
+Nov  7 12:32:36 10.71.60.0 u106298751 close "/logs/access.log.44.7" bytes read 18589 written 0
+Nov  7 12:32:36 10.71.60.0 u106298751 [10.71.60.0|get|1|18589|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e37|]
+Nov  7 12:32:36 10.71.60.0 u106298751 close "/views/regis.php" bytes read 982 written 0
+Nov  7 12:32:36 10.71.60.0 u106298751 [10.71.60.0|get|0|982|0|0|0|2f76696577732f72656769732e706870|]
+Nov  7 12:32:37 10.71.60.0 u106298751 open "/views/reg.php" flags READ mode 0666
+Nov  7 12:32:37 10.71.60.0 u106298751 close "/views/reg.php" bytes read 2388 written 0
+Nov  7 12:32:37 10.71.60.0 u106298751 [10.71.60.0|get|0|2388|0|0|0|2f76696577732f7265672e706870|]
+Nov  7 12:32:37 10.71.60.0 u106298751 open "/views/about.php" flags READ mode 0666
+Nov  7 12:32:38 10.71.60.0 u106298751 open "/views/haircuts.php" flags READ mode 0666
+Nov  7 12:32:38 10.71.60.0 u106298751 close "/views/about.php" bytes read 617 written 0
+Nov  7 12:32:38 10.71.60.0 u106298751 [10.71.60.0|get|1|617|0|0|0|2f76696577732f61626f75742e706870|]
+Nov  7 12:32:38 10.71.60.0 u106298751 close "/views/haircuts.php" bytes read 3333 written 0
+Nov  7 12:32:38 10.71.60.0 u106298751 [10.71.60.0|get|1|3333|0|0|0|2f76696577732f68616972637574732e706870|]
+Nov  7 12:32:38 10.71.60.0 u106298751 open "/views/signup.php" flags READ mode 0666
+Nov  7 12:32:38 10.71.60.0 u106298751 open "/views/error.php" flags READ mode 0666
+Nov  7 12:32:39 10.71.60.0 u106298751 close "/views/signup.php" bytes read 1240 written 0
+Nov  7 12:32:39 10.71.60.0 u106298751 [10.71.60.0|get|1|1240|0|0|0|2f76696577732f7369676e75702e706870|]
+Nov  7 12:32:39 10.71.60.0 u106298751 close "/views/error.php" bytes read 321 written 0
+Nov  7 12:32:39 10.71.60.0 u106298751 [10.71.60.0|get|1|321|0|0|0|2f76696577732f6572726f722e706870|]
+Nov  7 12:32:39 10.71.60.0 u106298751 open "/views/registration.php" flags READ mode 0666
+Nov  7 12:32:39 10.71.60.0 u106298751 open "/views/helper.php" flags READ mode 0666
+Nov  7 12:32:40 10.71.60.0 u106298751 close "/views/registration.php" bytes read 4333 written 0
+Nov  7 12:32:40 10.71.60.0 u106298751 [10.71.60.0|get|1|4333|0|0|0|2f76696577732f726567697374726174696f6e2e706870|]
+Nov  7 12:32:40 10.71.60.0 u106298751 close "/views/helper.php" bytes read 598 written 0
+Nov  7 12:32:40 10.71.60.0 u106298751 [10.71.60.0|get|1|598|0|0|0|2f76696577732f68656c7065722e706870|]
+Nov  7 12:32:40 10.71.60.0 u106298751 open "/views/photo.php" flags READ mode 0666
+Nov  7 12:32:40 10.71.60.0 u106298751 open "/views/msql-connect.php" flags READ mode 0666
+Nov  7 12:32:41 10.71.60.0 u106298751 close "/views/photo.php" bytes read 2033 written 0
+Nov  7 12:32:41 10.71.60.0 u106298751 [10.71.60.0|get|1|2033|0|0|0|2f76696577732f70686f746f2e706870|]
+Nov  7 12:32:41 10.71.60.0 u106298751 close "/views/msql-connect.php" bytes read 418 written 0
+Nov  7 12:32:41 10.71.60.0 u106298751 [10.71.60.0|get|1|418|0|0|0|2f76696577732f6d73716c2d636f6e6e6563742e706870|]
+Nov  7 12:32:41 10.71.60.0 u106298751 open "/views/register-process.php" flags READ mode 0666
+Nov  7 12:32:42 10.71.60.0 u106298751 open "/views/price.php" flags READ mode 0666
+Nov  7 12:32:42 10.71.60.0 u106298751 close "/views/register-process.php" bytes read 1068 written 0
+Nov  7 12:32:42 10.71.60.0 u106298751 [10.71.60.0|get|1|1068|0|0|0|2f76696577732f72656769737465722d70726f636573732e706870|]
+Nov  7 12:32:42 10.71.60.0 u106298751 close "/views/price.php" bytes read 914 written 0
+Nov  7 12:32:42 10.71.60.0 u106298751 [10.71.60.0|get|0|914|0|0|0|2f76696577732f70726963652e706870|]
+Nov  7 12:32:42 10.71.60.0 u106298751 open "/views/login.php" flags READ mode 0666
+Nov  7 12:32:43 10.71.60.0 u106298751 open "/views/image.php" flags READ mode 0666
+Nov  7 12:32:43 10.71.60.0 u106298751 close "/views/login.php" bytes read 1888 written 0
+Nov  7 12:32:43 10.71.60.0 u106298751 [10.71.60.0|get|1|1888|0|0|0|2f76696577732f6c6f67696e2e706870|]
+Nov  7 12:32:43 10.71.60.0 u106298751 close "/views/image.php" bytes read 585 written 0
+Nov  7 12:32:43 10.71.60.0 u106298751 [10.71.60.0|get|0|585|0|0|0|2f76696577732f696d6167652e706870|]
+Nov  7 12:32:43 10.71.60.0 u106298751 open "/views/messages.php" flags READ mode 0666
+Nov  7 12:32:43 10.71.60.0 u106298751 open "/views/main.php" flags READ mode 0666
+Nov  7 12:32:44 10.71.60.0 u106298751 close "/views/messages.php" bytes read 120 written 0
+Nov  7 12:32:44 10.71.60.0 u106298751 [10.71.60.0|get|1|120|0|0|0|2f76696577732f6d657373616765732e706870|]
+Nov  7 12:32:44 10.71.60.0 u106298751 close "/views/main.php" bytes read 354 written 0
+Nov  7 12:32:44 10.71.60.0 u106298751 [10.71.60.0|get|1|354|0|0|0|2f76696577732f6d61696e2e706870|]
+Nov  7 12:32:45 10.71.60.0 u106298751 open "/layout/footer.php" flags READ mode 0666
+Nov  7 12:32:45 10.71.60.0 u106298751 open "/layout/result.php" flags READ mode 0666
+Nov  7 12:32:45 10.71.60.0 u106298751 close "/layout/footer.php" bytes read 627 written 0
+Nov  7 12:32:45 10.71.60.0 u106298751 [10.71.60.0|get|0|627|0|0|0|2f6c61796f75742f666f6f7465722e706870|]
+Nov  7 12:32:45 10.71.60.0 u106298751 close "/layout/result.php" bytes read 728 written 0
+Nov  7 12:32:45 10.71.60.0 u106298751 [10.71.60.0|get|0|728|0|0|0|2f6c61796f75742f726573756c742e706870|]
+Nov  7 12:32:46 10.71.60.0 u106298751 open "/layout/header.php" flags READ mode 0666
+Nov  7 12:32:46 10.71.60.0 u106298751 close "/layout/header.php" bytes read 1050 written 0
+Nov  7 12:32:46 10.71.60.0 u106298751 [10.71.60.0|get|0|1050|0|0|0|2f6c61796f75742f6865616465722e706870|]
+Nov  7 12:32:46 10.71.60.0 u106298751 open "/js/script.js" flags READ mode 0666
+Nov  7 12:32:47 10.71.60.0 u106298751 close "/js/script.js" bytes read 683 written 0
+Nov  7 12:32:47 10.71.60.0 u106298751 [10.71.60.0|get|1|683|0|0|0|2f6a732f7363726970742e6a73|]
+Nov  7 12:32:47 10.71.60.0 u106298751 open "/images/undercut.jpg" flags READ mode 0666
+Nov  7 12:32:48 10.71.60.0 u106298751 close "/images/undercut.jpg" bytes read 77995 written 0
+Nov  7 12:32:48 10.71.60.0 u106298751 [10.71.60.0|get|1|77995|0|0|0|2f696d616765732f756e6465726375742e6a7067|]
+Nov  7 12:32:48 10.71.60.0 u106298751 open "/images/moustache_PNG38.png" flags READ mode 0666
+Nov  7 12:32:48 10.71.60.0 u106298751 open "/images/moustache_PNG38 (1).png" flags READ mode 0666
+Nov  7 12:32:48 10.71.60.0 u106298751 close "/images/moustache_PNG38.png" bytes read 33216 written 0
+Nov  7 12:32:48 10.71.60.0 u106298751 [10.71.60.0|get|0|33216|0|0|0|2f696d616765732f6d6f757374616368655f504e4733382e706e67|]
+Nov  7 12:32:49 10.71.60.0 u106298751 close "/images/moustache_PNG38 (1).png" bytes read 43278 written 0
+Nov  7 12:32:49 10.71.60.0 u106298751 [10.71.60.0|get|1|43278|0|0|0|2f696d616765732f6d6f757374616368655f504e473338202831292e706e67|]
+Nov  7 12:32:49 10.71.60.0 u106298751 open "/images/fabio-scaletta-yhKc2M6Z500-unsplash (1).jpg" flags READ mode 0666
+Nov  7 12:32:49 10.71.60.0 u106298751 open "/images/curtains.jpg" flags READ mode 0666
+Nov  7 12:32:50 10.71.60.0 u106298751 close "/images/curtains.jpg" bytes read 168222 written 0
+Nov  7 12:32:50 10.71.60.0 u106298751 [10.71.60.0|get|1|168222|0|0|0|2f696d616765732f6375727461696e732e6a7067|]
+Nov  7 12:32:50 10.71.60.0 u106298751 close "/images/fabio-scaletta-yhKc2M6Z500-unsplash (1).jpg" bytes read 1922326 written 0
+Nov  7 12:32:50 10.71.60.0 u106298751 [10.71.60.0|get|1|1922326|0|0|0|2f696d616765732f666162696f2d7363616c657474612d79684b63324d365a3530302d756e73706c617368202831292e6a7067|]
+Nov  7 12:32:50 10.71.60.0 u106298751 open "/images/cropped-open-scissors.png" flags READ mode 0666
+Nov  7 12:32:51 10.71.60.0 u106298751 open "/images/999.jpg" flags READ mode 0666
+Nov  7 12:32:51 10.71.60.0 u106298751 close "/images/cropped-open-scissors.png" bytes read 10844 written 0
+Nov  7 12:32:51 10.71.60.0 u106298751 [10.71.60.0|get|1|10844|0|0|0|2f696d616765732f63726f707065642d6f70656e2d73636973736f72732e706e67|]
+Nov  7 12:32:51 10.71.60.0 u106298751 close "/images/999.jpg" bytes read 32622 written 0
+Nov  7 12:32:51 10.71.60.0 u106298751 [10.71.60.0|get|0|32622|0|0|0|2f696d616765732f3939392e6a7067|]
+Nov  7 12:32:51 10.71.60.0 u106298751 open "/images/888.jpg" flags READ mode 0666
+Nov  7 12:32:52 10.71.60.0 u106298751 open "/images/8.jpg" flags READ mode 0666
+Nov  7 12:32:52 10.71.60.0 u106298751 close "/images/888.jpg" bytes read 33839 written 0
+Nov  7 12:32:52 10.71.60.0 u106298751 [10.71.60.0|get|1|33839|0|0|0|2f696d616765732f3838382e6a7067|]
+Nov  7 12:32:53 10.71.60.0 u106298751 open "/images/77.jpg" flags READ mode 0666
+Nov  7 12:32:53 10.71.60.0 u106298751 close "/images/8.jpg" bytes read 4527496 written 0
+Nov  7 12:32:53 10.71.60.0 u106298751 [10.71.60.0|get|1|4527496|0|0|0|2f696d616765732f382e6a7067|]
+Nov  7 12:32:53 10.71.60.0 u106298751 close "/images/77.jpg" bytes read 42488 written 0
+Nov  7 12:32:53 10.71.60.0 u106298751 [10.71.60.0|get|0|42488|0|0|0|2f696d616765732f37372e6a7067|]
+Nov  7 12:32:54 10.71.60.0 u106298751 open "/images/666.jpg" flags READ mode 0666
+Nov  7 12:32:54 10.71.60.0 u106298751 open "/images/56.jpg" flags READ mode 0666
+Nov  7 12:32:54 10.71.60.0 u106298751 close "/images/56.jpg" bytes read 69971 written 0
+Nov  7 12:32:54 10.71.60.0 u106298751 [10.71.60.0|get|0|69971|0|0|0|2f696d616765732f35362e6a7067|]
+Nov  7 12:32:54 10.71.60.0 u106298751 close "/images/666.jpg" bytes read 1996435 written 0
+Nov  7 12:32:54 10.71.60.0 u106298751 [10.71.60.0|get|0|1996435|0|0|0|2f696d616765732f3636362e6a7067|]
+Nov  7 12:32:55 10.71.60.0 u106298751 open "/images/555.jpg" flags READ mode 0666
+Nov  7 12:32:55 10.71.60.0 u106298751 open "/images/37.jpg" flags READ mode 0666
+Nov  7 12:32:56 10.71.60.0 u106298751 close "/images/555.jpg" bytes read 722411 written 0
+Nov  7 12:32:56 10.71.60.0 u106298751 [10.71.60.0|get|1|722411|0|0|0|2f696d616765732f3535352e6a7067|]
+Nov  7 12:32:56 10.71.60.0 u106298751 close "/images/37.jpg" bytes read 3286941 written 0
+Nov  7 12:32:56 10.71.60.0 u106298751 [10.71.60.0|get|1|3286941|0|0|0|2f696d616765732f33372e6a7067|]
+Nov  7 12:32:56 10.71.60.0 u106298751 open "/images/36.jpg" flags READ mode 0666
+Nov  7 12:32:57 10.71.60.0 u106298751 open "/images/35.jpg" flags READ mode 0666
+Nov  7 12:32:57 10.71.60.0 u106298751 close "/images/36.jpg" bytes read 1067032 written 0
+Nov  7 12:32:57 10.71.60.0 u106298751 [10.71.60.0|get|1|1067032|0|0|0|2f696d616765732f33362e6a7067|]
+Nov  7 12:32:57 10.71.60.0 u106298751 close "/images/35.jpg" bytes read 606618 written 0
+Nov  7 12:32:57 10.71.60.0 u106298751 [10.71.60.0|get|0|606618|0|0|0|2f696d616765732f33352e6a7067|]
+Nov  7 12:32:58 10.71.60.0 u106298751 open "/images/333.jpg" flags READ mode 0666
+Nov  7 12:32:58 10.71.60.0 u106298751 open "/images/31.jpg" flags READ mode 0666
+Nov  7 12:32:58 10.71.60.0 u106298751 close "/images/333.jpg" bytes read 934719 written 0
+Nov  7 12:32:58 10.71.60.0 u106298751 [10.71.60.0|get|0|934719|0|0|0|2f696d616765732f3333332e6a7067|]
+Nov  7 12:32:59 10.71.60.0 u106298751 close "/images/31.jpg" bytes read 1922326 written 0
+Nov  7 12:32:59 10.71.60.0 u106298751 [10.71.60.0|get|1|1922326|0|0|0|2f696d616765732f33312e6a7067|]
+Nov  7 12:32:59 10.71.60.0 u106298751 open "/images/30.jpg" flags READ mode 0666
+Nov  7 12:32:59 10.71.60.0 u106298751 open "/images/29.jpg" flags READ mode 0666
+Nov  7 12:32:59 10.71.60.0 u106298751 close "/images/30.jpg" bytes read 675624 written 0
+Nov  7 12:32:59 10.71.60.0 u106298751 [10.71.60.0|get|0|675624|0|0|0|2f696d616765732f33302e6a7067|]
+Nov  7 12:33:00 10.71.60.0 u106298751 open "/images/27.jpg" flags READ mode 0666
+Nov  7 12:33:00 10.71.60.0 u106298751 close "/images/29.jpg" bytes read 2435392 written 0
+Nov  7 12:33:00 10.71.60.0 u106298751 [10.71.60.0|get|1|2435392|0|0|0|2f696d616765732f32392e6a7067|]
+Nov  7 12:33:00 10.71.60.0 u106298751 close "/images/27.jpg" bytes read 1597896 written 0
+Nov  7 12:33:00 10.71.60.0 u106298751 [10.71.60.0|get|0|1597896|0|0|0|2f696d616765732f32372e6a7067|]
+Nov  7 12:33:01 10.71.60.0 u106298751 open "/images/26.jpg" flags READ mode 0666
+Nov  7 12:33:01 10.71.60.0 u106298751 open "/images/25.jpg" flags READ mode 0666
+Nov  7 12:33:01 10.71.60.0 u106298751 close "/images/26.jpg" bytes read 696616 written 0
+Nov  7 12:33:01 10.71.60.0 u106298751 [10.71.60.0|get|0|696616|0|0|0|2f696d616765732f32362e6a7067|]
+Nov  7 12:33:02 10.71.60.0 u106298751 open "/images/24.jpg" flags READ mode 0666
+Nov  7 12:33:02 10.71.60.0 u106298751 close "/images/25.jpg" bytes read 1941763 written 0
+Nov  7 12:33:02 10.71.60.0 u106298751 [10.71.60.0|get|1|1941763|0|0|0|2f696d616765732f32352e6a7067|]
+Nov  7 12:33:02 10.71.60.0 u106298751 open "/images/23.jpg" flags READ mode 0666
+Nov  7 12:33:03 10.71.60.0 u106298751 close "/images/24.jpg" bytes read 3642547 written 0
+Nov  7 12:33:03 10.71.60.0 u106298751 [10.71.60.0|get|1|3642547|0|0|0|2f696d616765732f32342e6a7067|]
+Nov  7 12:33:04 10.71.60.0 u106298751 close "/images/23.jpg" bytes read 2303956 written 0
+Nov  7 12:33:04 10.71.60.0 u106298751 [10.71.60.0|get|1|2303956|0|0|0|2f696d616765732f32332e6a7067|]
+Nov  7 12:33:04 10.71.60.0 u106298751 open "/images/222.jpg" flags READ mode 0666
+Nov  7 12:33:04 10.71.60.0 u106298751 open "/images/22.jpg" flags READ mode 0666
+Nov  7 12:33:04 10.71.60.0 u106298751 close "/images/222.jpg" bytes read 163795 written 0
+Nov  7 12:33:04 10.71.60.0 u106298751 [10.71.60.0|get|0|163795|0|0|0|2f696d616765732f3232322e6a7067|]
+Nov  7 12:33:05 10.71.60.0 u106298751 open "/images/21.jpg" flags READ mode 0666
+Nov  7 12:33:06 10.71.60.0 u106298751 close "/images/22.jpg" bytes read 5062486 written 0
+Nov  7 12:33:06 10.71.60.0 u106298751 [10.71.60.0|get|2|5062486|0|0|0|2f696d616765732f32322e6a7067|]
+Nov  7 12:33:06 10.71.60.0 u106298751 close "/images/21.jpg" bytes read 2113920 written 0
+Nov  7 12:33:06 10.71.60.0 u106298751 [10.71.60.0|get|1|2113920|0|0|0|2f696d616765732f32312e6a7067|]
+Nov  7 12:33:06 10.71.60.0 u106298751 open "/images/15.png" flags READ mode 0666
+Nov  7 12:33:06 10.71.60.0 u106298751 open "/images/5.jpg" flags READ mode 0666
+Nov  7 12:33:07 10.71.60.0 u106298751 close "/images/15.png" bytes read 260710 written 0
+Nov  7 12:33:07 10.71.60.0 u106298751 [10.71.60.0|get|1|260710|0|0|0|2f696d616765732f31352e706e67|]
+Nov  7 12:33:07 10.71.60.0 u106298751 close "/images/5.jpg" bytes read 1737421 written 0
+Nov  7 12:33:07 10.71.60.0 u106298751 [10.71.60.0|get|1|1737421|0|0|0|2f696d616765732f352e6a7067|]
+Nov  7 12:33:07 10.71.60.0 u106298751 open "/images/6.jpg" flags READ mode 0666
+Nov  7 12:33:08 10.71.60.0 u106298751 open "/images/3.jpg" flags READ mode 0666
+Nov  7 12:33:09 10.71.60.0 u106298751 close "/images/6.jpg" bytes read 2486079 written 0
+Nov  7 12:33:09 10.71.60.0 u106298751 [10.71.60.0|get|2|2486079|0|0|0|2f696d616765732f362e6a7067|]
+Nov  7 12:33:09 10.71.60.0 u106298751 close "/images/3.jpg" bytes read 3350927 written 0
+Nov  7 12:33:09 10.71.60.0 u106298751 [10.71.60.0|get|1|3350927|0|0|0|2f696d616765732f332e6a7067|]
+Nov  7 12:33:09 10.71.60.0 u106298751 open "/images/4.jpg" flags READ mode 0666
+Nov  7 12:33:10 10.71.60.0 u106298751 open "/images/7.jpg" flags READ mode 0666
+Nov  7 12:33:10 10.71.60.0 u106298751 close "/images/7.jpg" bytes read 291874 written 0
+Nov  7 12:33:10 10.71.60.0 u106298751 [10.71.60.0|get|0|291874|0|0|0|2f696d616765732f372e6a7067|]
+Nov  7 12:33:11 10.71.60.0 u106298751 close "/images/4.jpg" bytes read 5141265 written 0
+Nov  7 12:33:11 10.71.60.0 u106298751 [10.71.60.0|get|2|5141265|0|0|0|2f696d616765732f342e6a7067|]
+Nov  7 12:33:11 10.71.60.0 u106298751 open "/images/1.jpg" flags READ mode 0666
+Nov  7 12:33:11 10.71.60.0 u106298751 open "/images/2.png" flags READ mode 0666
+Nov  7 12:33:11 10.71.60.0 u106298751 close "/images/1.jpg" bytes read 654293 written 0
+Nov  7 12:33:11 10.71.60.0 u106298751 [10.71.60.0|get|0|654293|0|0|0|2f696d616765732f312e6a7067|]
+Nov  7 12:33:12 10.71.60.0 u106298751 close "/images/2.png" bytes read 16502 written 0
+Nov  7 12:33:12 10.71.60.0 u106298751 [10.71.60.0|get|1|16502|0|0|0|2f696d616765732f322e706e67|]
+Nov  7 12:33:12 10.71.60.0 u106298751 open "/fonts/Ephesis-Regular.ttf" flags READ mode 0666
+Nov  7 12:33:13 10.71.60.0 u106298751 open "/css/style.css" flags READ mode 0666
+Nov  7 12:33:13 10.71.60.0 u106298751 close "/fonts/Ephesis-Regular.ttf" bytes read 141240 written 0
+Nov  7 12:33:13 10.71.60.0 u106298751 [10.71.60.0|get|1|141240|0|0|0|2f666f6e74732f457068657369732d526567756c61722e747466|]
+Nov  7 12:33:13 10.71.60.0 u106298751 close "/css/style.css" bytes read 14122 written 0
+Nov  7 12:33:13 10.71.60.0 u106298751 [10.71.60.0|get|0|14122|0|0|0|2f6373732f7374796c652e637373|]
+Nov  7 12:33:14 10.71.60.0 u106298751 open "/css/regist.css" flags READ mode 0666
+Nov  7 12:33:14 10.71.60.0 u106298751 close "/css/regist.css" bytes read 3468 written 0
+Nov  7 12:33:14 10.71.60.0 u106298751 [10.71.60.0|get|0|3468|0|0|0|2f6373732f7265676973742e637373|]
+Nov  7 12:34:14 10.71.60.0 u106298751 session closed for local user u106298751 from [10.71.60.0]
+Nov  7 12:34:14 10.71.60.0 u106298751 Connection closed by 10.71.60.0 port 36078
+Nov  7 12:34:15 10.71.60.0 u106298751 session closed for local user u106298751 from [10.71.60.0]
+Nov  7 12:34:15 10.71.60.0 u106298751 Connection closed by 10.71.60.0 port 53098
+Nov  7 12:39:29 10.71.60.0 u106298751 sent status No such file
+Nov  7 12:39:29 10.71.60.0 u106298751 Connection from 10.71.60.0 port 29110 on 74.208.59.197 port 22
+Nov  7 12:39:30 10.71.60.0 u106298751 Accepted password for u106298751 from 10.71.60.0 port 29110 ssh2
+Nov  7 12:39:29 10.71.60.0 u106298751 Connection from 10.71.60.0 port 19332 on 74.208.59.197 port 22
+Nov  7 12:39:30 10.71.60.0 u106298751 Accepted password for u106298751 from 10.71.60.0 port 19332 ssh2
+Nov  7 12:39:30 10.71.60.0 u106298751 Starting session: subsystem 'sftp' for u106298751 from 10.71.60.0 port 29110 id 0
+Nov  7 12:39:30 10.71.60.0 u106298751 session opened for local user u106298751 from [10.71.60.0]
+Nov  7 12:39:30 10.71.60.0 u106298751 Starting session: subsystem 'sftp' for u106298751 from 10.71.60.0 port 19332 id 0
+Nov  7 12:39:30 10.71.60.0 u106298751 session opened for local user u106298751 from [10.71.60.0]
+Nov  7 12:39:31 10.71.60.0 u106298751 open "/captcha.php" flags READ mode 0666
+Nov  7 12:39:32 10.71.60.0 u106298751 open "/countries.json" flags READ mode 0666
+Nov  7 12:39:32 10.71.60.0 u106298751 close "/captcha.php" bytes read 2425 written 0
+Nov  7 12:39:32 10.71.60.0 u106298751 [10.71.60.0|get|1|2425|0|0|0|2f636170746368612e706870|]
+Nov  7 12:39:32 10.71.60.0 u106298751 close "/countries.json" bytes read 10003 written 0
+Nov  7 12:39:32 10.71.60.0 u106298751 [10.71.60.0|get|0|10003|0|0|0|2f636f756e74726965732e6a736f6e|]
+Nov  7 12:39:32 10.71.60.0 u106298751 open "/index.php" flags READ mode 0666
+Nov  7 12:39:33 10.71.60.0 u106298751 open "/monofont.ttf" flags READ mode 0666
+Nov  7 12:39:33 10.71.60.0 u106298751 close "/index.php" bytes read 316 written 0
+Nov  7 12:39:33 10.71.60.0 u106298751 [10.71.60.0|get|1|316|0|0|0|2f696e6465782e706870|]
+Nov  7 12:39:33 10.71.60.0 u106298751 close "/monofont.ttf" bytes read 41036 written 0
+Nov  7 12:39:33 10.71.60.0 u106298751 [10.71.60.0|get|0|41036|0|0|0|2f6d6f6e6f666f6e742e747466|]
+Nov  7 12:39:34 10.71.60.0 u106298751 open "/css/style.css" flags READ mode 0666
+Nov  7 12:39:34 10.71.60.0 u106298751 open "/css/regist.css" flags READ mode 0666
+Nov  7 12:39:34 10.71.60.0 u106298751 close "/css/style.css" bytes read 14122 written 0
+Nov  7 12:39:34 10.71.60.0 u106298751 [10.71.60.0|get|0|14122|0|0|0|2f6373732f7374796c652e637373|]
+Nov  7 12:39:35 10.71.60.0 u106298751 close "/css/regist.css" bytes read 3468 written 0
+Nov  7 12:39:35 10.71.60.0 u106298751 [10.71.60.0|get|1|3468|0|0|0|2f6373732f7265676973742e637373|]
+Nov  7 12:39:35 10.71.60.0 u106298751 open "/fonts/Ephesis-Regular.ttf" flags READ mode 0666
+Nov  7 12:39:36 10.71.60.0 u106298751 open "/images/undercut.jpg" flags READ mode 0666
+Nov  7 12:39:36 10.71.60.0 u106298751 close "/fonts/Ephesis-Regular.ttf" bytes read 141240 written 0
+Nov  7 12:39:36 10.71.60.0 u106298751 [10.71.60.0|get|1|141240|0|0|0|2f666f6e74732f457068657369732d526567756c61722e747466|]
+Nov  7 12:39:36 10.71.60.0 u106298751 close "/images/undercut.jpg" bytes read 77995 written 0
+Nov  7 12:39:36 10.71.60.0 u106298751 [10.71.60.0|get|0|77995|0|0|0|2f696d616765732f756e6465726375742e6a7067|]
+Nov  7 12:39:37 10.71.60.0 u106298751 open "/images/moustache_PNG38 (1).png" flags READ mode 0666
+Nov  7 12:39:37 10.71.60.0 u106298751 open "/images/moustache_PNG38.png" flags READ mode 0666
+Nov  7 12:39:37 10.71.60.0 u106298751 close "/images/moustache_PNG38 (1).png" bytes read 43278 written 0
+Nov  7 12:39:37 10.71.60.0 u106298751 [10.71.60.0|get|0|43278|0|0|0|2f696d616765732f6d6f757374616368655f504e473338202831292e706e67|]
+Nov  7 12:39:38 10.71.60.0 u106298751 close "/images/moustache_PNG38.png" bytes read 33216 written 0
+Nov  7 12:39:38 10.71.60.0 u106298751 [10.71.60.0|get|1|33216|0|0|0|2f696d616765732f6d6f757374616368655f504e4733382e706e67|]
+Nov  7 12:39:38 10.71.60.0 u106298751 open "/images/fabio-scaletta-yhKc2M6Z500-unsplash (1).jpg" flags READ mode 0666
+Nov  7 12:39:38 10.71.60.0 u106298751 open "/images/curtains.jpg" flags READ mode 0666
+Nov  7 12:39:39 10.71.60.0 u106298751 close "/images/curtains.jpg" bytes read 168222 written 0
+Nov  7 12:39:39 10.71.60.0 u106298751 [10.71.60.0|get|1|168222|0|0|0|2f696d616765732f6375727461696e732e6a7067|]
+Nov  7 12:39:39 10.71.60.0 u106298751 close "/images/fabio-scaletta-yhKc2M6Z500-unsplash (1).jpg" bytes read 1922326 written 0
+Nov  7 12:39:39 10.71.60.0 u106298751 [10.71.60.0|get|1|1922326|0|0|0|2f696d616765732f666162696f2d7363616c657474612d79684b63324d365a3530302d756e73706c617368202831292e6a7067|]
+Nov  7 12:39:39 10.71.60.0 u106298751 open "/images/cropped-open-scissors.png" flags READ mode 0666
+Nov  7 12:39:40 10.71.60.0 u106298751 open "/images/999.jpg" flags READ mode 0666
+Nov  7 12:39:40 10.71.60.0 u106298751 close "/images/cropped-open-scissors.png" bytes read 10844 written 0
+Nov  7 12:39:40 10.71.60.0 u106298751 [10.71.60.0|get|1|10844|0|0|0|2f696d616765732f63726f707065642d6f70656e2d73636973736f72732e706e67|]
+Nov  7 12:39:40 10.71.60.0 u106298751 close "/images/999.jpg" bytes read 32622 written 0
+Nov  7 12:39:40 10.71.60.0 u106298751 [10.71.60.0|get|0|32622|0|0|0|2f696d616765732f3939392e6a7067|]
+Nov  7 12:39:40 10.71.60.0 u106298751 open "/images/888.jpg" flags READ mode 0666
+Nov  7 12:39:41 10.71.60.0 u106298751 open "/images/8.jpg" flags READ mode 0666
+Nov  7 12:39:41 10.71.60.0 u106298751 close "/images/888.jpg" bytes read 33839 written 0
+Nov  7 12:39:41 10.71.60.0 u106298751 [10.71.60.0|get|1|33839|0|0|0|2f696d616765732f3838382e6a7067|]
+Nov  7 12:39:41 10.71.60.0 u106298751 open "/images/77.jpg" flags READ mode 0666
+Nov  7 12:39:42 10.71.60.0 u106298751 close "/images/8.jpg" bytes read 4527496 written 0
+Nov  7 12:39:42 10.71.60.0 u106298751 [10.71.60.0|get|1|4527496|0|0|0|2f696d616765732f382e6a7067|]
+Nov  7 12:39:42 10.71.60.0 u106298751 close "/images/77.jpg" bytes read 42488 written 0
+Nov  7 12:39:42 10.71.60.0 u106298751 [10.71.60.0|get|1|42488|0|0|0|2f696d616765732f37372e6a7067|]
+Nov  7 12:39:42 10.71.60.0 u106298751 open "/images/666.jpg" flags READ mode 0666
+Nov  7 12:39:42 10.71.60.0 u106298751 open "/images/56.jpg" flags READ mode 0666
+Nov  7 12:39:43 10.71.60.0 u106298751 close "/images/666.jpg" bytes read 1996435 written 0
+Nov  7 12:39:43 10.71.60.0 u106298751 [10.71.60.0|get|1|1996435|0|0|0|2f696d616765732f3636362e6a7067|]
+Nov  7 12:39:43 10.71.60.0 u106298751 close "/images/56.jpg" bytes read 69971 written 0
+Nov  7 12:39:43 10.71.60.0 u106298751 [10.71.60.0|get|1|69971|0|0|0|2f696d616765732f35362e6a7067|]
+Nov  7 12:39:44 10.71.60.0 u106298751 open "/images/555.jpg" flags READ mode 0666
+Nov  7 12:39:44 10.71.60.0 u106298751 open "/images/37.jpg" flags READ mode 0666
+Nov  7 12:39:44 10.71.60.0 u106298751 close "/images/555.jpg" bytes read 722411 written 0
+Nov  7 12:39:44 10.71.60.0 u106298751 [10.71.60.0|get|0|722411|0|0|0|2f696d616765732f3535352e6a7067|]
+Nov  7 12:39:45 10.71.60.0 u106298751 open "/images/36.jpg" flags READ mode 0666
+Nov  7 12:39:45 10.71.60.0 u106298751 close "/images/37.jpg" bytes read 3286941 written 0
+Nov  7 12:39:45 10.71.60.0 u106298751 [10.71.60.0|get|1|3286941|0|0|0|2f696d616765732f33372e6a7067|]
+Nov  7 12:39:46 10.71.60.0 u106298751 open "/images/35.jpg" flags READ mode 0666
+Nov  7 12:39:46 10.71.60.0 u106298751 close "/images/36.jpg" bytes read 1067032 written 0
+Nov  7 12:39:46 10.71.60.0 u106298751 [10.71.60.0|get|1|1067032|0|0|0|2f696d616765732f33362e6a7067|]
+Nov  7 12:39:46 10.71.60.0 u106298751 close "/images/35.jpg" bytes read 606618 written 0
+Nov  7 12:39:46 10.71.60.0 u106298751 [10.71.60.0|get|0|606618|0|0|0|2f696d616765732f33352e6a7067|]
+Nov  7 12:39:46 10.71.60.0 u106298751 open "/images/333.jpg" flags READ mode 0666
+Nov  7 12:39:47 10.71.60.0 u106298751 open "/images/31.jpg" flags READ mode 0666
+Nov  7 12:39:47 10.71.60.0 u106298751 close "/images/333.jpg" bytes read 934719 written 0
+Nov  7 12:39:47 10.71.60.0 u106298751 [10.71.60.0|get|1|934719|0|0|0|2f696d616765732f3333332e6a7067|]
+Nov  7 12:39:47 10.71.60.0 u106298751 open "/images/30.jpg" flags READ mode 0666
+Nov  7 12:39:48 10.71.60.0 u106298751 close "/images/31.jpg" bytes read 1922326 written 0
+Nov  7 12:39:48 10.71.60.0 u106298751 [10.71.60.0|get|1|1922326|0|0|0|2f696d616765732f33312e6a7067|]
+Nov  7 12:39:48 10.71.60.0 u106298751 close "/images/30.jpg" bytes read 675624 written 0
+Nov  7 12:39:48 10.71.60.0 u106298751 [10.71.60.0|get|1|675624|0|0|0|2f696d616765732f33302e6a7067|]
+Nov  7 12:39:48 10.71.60.0 u106298751 open "/images/29.jpg" flags READ mode 0666
+Nov  7 12:39:48 10.71.60.0 u106298751 open "/images/27.jpg" flags READ mode 0666
+Nov  7 12:39:49 10.71.60.0 u106298751 close "/images/29.jpg" bytes read 2435392 written 0
+Nov  7 12:39:49 10.71.60.0 u106298751 [10.71.60.0|get|1|2435392|0|0|0|2f696d616765732f32392e6a7067|]
+Nov  7 12:39:50 10.71.60.0 u106298751 open "/images/26.jpg" flags READ mode 0666
+Nov  7 12:39:50 10.71.60.0 u106298751 close "/images/27.jpg" bytes read 1597896 written 0
+Nov  7 12:39:50 10.71.60.0 u106298751 [10.71.60.0|get|2|1597896|0|0|0|2f696d616765732f32372e6a7067|]
+Nov  7 12:39:50 10.71.60.0 u106298751 close "/images/26.jpg" bytes read 696616 written 0
+Nov  7 12:39:50 10.71.60.0 u106298751 [10.71.60.0|get|0|696616|0|0|0|2f696d616765732f32362e6a7067|]
+Nov  7 12:39:51 10.71.60.0 u106298751 open "/images/25.jpg" flags READ mode 0666
+Nov  7 12:39:51 10.71.60.0 u106298751 open "/images/24.jpg" flags READ mode 0666
+Nov  7 12:39:52 10.71.60.0 u106298751 close "/images/24.jpg" bytes read 3642547 written 0
+Nov  7 12:39:52 10.71.60.0 u106298751 [10.71.60.0|get|1|3642547|0|0|0|2f696d616765732f32342e6a7067|]
+Nov  7 12:39:53 10.71.60.0 u106298751 open "/images/23.jpg" flags READ mode 0666
+Nov  7 12:39:53 10.71.60.0 u106298751 close "/images/25.jpg" bytes read 1941763 written 0
+Nov  7 12:39:53 10.71.60.0 u106298751 [10.71.60.0|get|2|1941763|0|0|0|2f696d616765732f32352e6a7067|]
+Nov  7 12:39:53 10.71.60.0 u106298751 open "/images/222.jpg" flags READ mode 0666
+Nov  7 12:39:54 10.71.60.0 u106298751 close "/images/222.jpg" bytes read 163795 written 0
+Nov  7 12:39:54 10.71.60.0 u106298751 [10.71.60.0|get|1|163795|0|0|0|2f696d616765732f3232322e6a7067|]
+Nov  7 12:39:54 10.71.60.0 u106298751 close "/images/23.jpg" bytes read 2303956 written 0
+Nov  7 12:39:54 10.71.60.0 u106298751 [10.71.60.0|get|1|2303956|0|0|0|2f696d616765732f32332e6a7067|]
+Nov  7 12:39:54 10.71.60.0 u106298751 open "/images/22.jpg" flags READ mode 0666
+Nov  7 12:39:54 10.71.60.0 u106298751 open "/images/21.jpg" flags READ mode 0666
+Nov  7 12:39:56 10.71.60.0 u106298751 close "/images/21.jpg" bytes read 2113920 written 0
+Nov  7 12:39:56 10.71.60.0 u106298751 [10.71.60.0|get|2|2113920|0|0|0|2f696d616765732f32312e6a7067|]
+Nov  7 12:39:56 10.71.60.0 u106298751 open "/images/15.png" flags READ mode 0666
+Nov  7 12:39:57 10.71.60.0 u106298751 close "/images/15.png" bytes read 260710 written 0
+Nov  7 12:39:57 10.71.60.0 u106298751 [10.71.60.0|get|1|260710|0|0|0|2f696d616765732f31352e706e67|]
+Nov  7 12:39:57 10.71.60.0 u106298751 close "/images/22.jpg" bytes read 5062486 written 0
+Nov  7 12:39:57 10.71.60.0 u106298751 [10.71.60.0|get|3|5062486|0|0|0|2f696d616765732f32322e6a7067|]
+Nov  7 12:39:57 10.71.60.0 u106298751 open "/images/5.jpg" flags READ mode 0666
+Nov  7 12:39:57 10.71.60.0 u106298751 open "/images/6.jpg" flags READ mode 0666
+Nov  7 12:39:58 10.71.60.0 u106298751 close "/images/5.jpg" bytes read 1737421 written 0
+Nov  7 12:39:58 10.71.60.0 u106298751 [10.71.60.0|get|1|1737421|0|0|0|2f696d616765732f352e6a7067|]
+Nov  7 12:39:58 10.71.60.0 u106298751 close "/images/6.jpg" bytes read 2486079 written 0
+Nov  7 12:39:58 10.71.60.0 u106298751 [10.71.60.0|get|1|2486079|0|0|0|2f696d616765732f362e6a7067|]
+Nov  7 12:39:59 10.71.60.0 u106298751 open "/images/3.jpg" flags READ mode 0666
+Nov  7 12:39:59 10.71.60.0 u106298751 open "/images/4.jpg" flags READ mode 0666
+Nov  7 12:40:00 10.71.60.0 u106298751 close "/images/3.jpg" bytes read 3350927 written 0
+Nov  7 12:40:00 10.71.60.0 u106298751 [10.71.60.0|get|1|3350927|0|0|0|2f696d616765732f332e6a7067|]
+Nov  7 12:40:01 10.71.60.0 u106298751 open "/images/7.jpg" flags READ mode 0666
+Nov  7 12:40:01 10.71.60.0 u106298751 close "/images/4.jpg" bytes read 5141265 written 0
+Nov  7 12:40:01 10.71.60.0 u106298751 [10.71.60.0|get|2|5141265|0|0|0|2f696d616765732f342e6a7067|]
+Nov  7 12:40:01 10.71.60.0 u106298751 close "/images/7.jpg" bytes read 291874 written 0
+Nov  7 12:40:01 10.71.60.0 u106298751 [10.71.60.0|get|0|291874|0|0|0|2f696d616765732f372e6a7067|]
+Nov  7 12:40:01 10.71.60.0 u106298751 open "/images/1.jpg" flags READ mode 0666
+Nov  7 12:40:02 10.71.60.0 u106298751 open "/images/2.png" flags READ mode 0666
+Nov  7 12:40:02 10.71.60.0 u106298751 close "/images/1.jpg" bytes read 654293 written 0
+Nov  7 12:40:02 10.71.60.0 u106298751 [10.71.60.0|get|1|654293|0|0|0|2f696d616765732f312e6a7067|]
+Nov  7 12:40:02 10.71.60.0 u106298751 close "/images/2.png" bytes read 16502 written 0
+Nov  7 12:40:02 10.71.60.0 u106298751 [10.71.60.0|get|0|16502|0|0|0|2f696d616765732f322e706e67|]
+Nov  7 12:40:03 10.71.60.0 u106298751 open "/js/script.js" flags READ mode 0666
+Nov  7 12:40:03 10.71.60.0 u106298751 open "/layout/footer.php" flags READ mode 0666
+Nov  7 12:40:03 10.71.60.0 u106298751 close "/js/script.js" bytes read 683 written 0
+Nov  7 12:40:03 10.71.60.0 u106298751 [10.71.60.0|get|0|683|0|0|0|2f6a732f7363726970742e6a73|]
+Nov  7 12:40:04 10.71.60.0 u106298751 close "/layout/footer.php" bytes read 627 written 0
+Nov  7 12:40:04 10.71.60.0 u106298751 [10.71.60.0|get|1|627|0|0|0|2f6c61796f75742f666f6f7465722e706870|]
+Nov  7 12:40:04 10.71.60.0 u106298751 open "/layout/header.php" flags READ mode 0666
+Nov  7 12:40:04 10.71.60.0 u106298751 open "/layout/result.php" flags READ mode 0666
+Nov  7 12:40:05 10.71.60.0 u106298751 close "/layout/header.php" bytes read 1050 written 0
+Nov  7 12:40:05 10.71.60.0 u106298751 [10.71.60.0|get|1|1050|0|0|0|2f6c61796f75742f6865616465722e706870|]
+Nov  7 12:40:05 10.71.60.0 u106298751 close "/layout/result.php" bytes read 728 written 0
+Nov  7 12:40:05 10.71.60.0 u106298751 [10.71.60.0|get|1|728|0|0|0|2f6c61796f75742f726573756c742e706870|]
+Nov  7 12:40:06 10.71.60.0 u106298751 open "/logs/access.log.44.7" flags READ mode 0666
+Nov  7 12:40:06 10.71.60.0 u106298751 open "/logs/access.log.44.6.gz" flags READ mode 0666
+Nov  7 12:40:06 10.71.60.0 u106298751 close "/logs/access.log.44.7" bytes read 18589 written 0
+Nov  7 12:40:06 10.71.60.0 u106298751 [10.71.60.0|get|0|18589|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e37|]
+Nov  7 12:40:06 10.71.60.0 u106298751 close "/logs/access.log.44.6.gz" bytes read 1319 written 0
+Nov  7 12:40:06 10.71.60.0 u106298751 [10.71.60.0|get|0|1319|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e362e677a|]
+Nov  7 12:40:06 10.71.60.0 u106298751 open "/logs/access.log.44.5.gz" flags READ mode 0666
+Nov  7 12:40:07 10.71.60.0 u106298751 open "/logs/access.log.44.4.gz" flags READ mode 0666
+Nov  7 12:40:07 10.71.60.0 u106298751 close "/logs/access.log.44.5.gz" bytes read 2339 written 0
+Nov  7 12:40:07 10.71.60.0 u106298751 [10.71.60.0|get|1|2339|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e352e677a|]
+Nov  7 12:40:07 10.71.60.0 u106298751 close "/logs/access.log.44.4.gz" bytes read 1338 written 0
+Nov  7 12:40:07 10.71.60.0 u106298751 [10.71.60.0|get|0|1338|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e342e677a|]
+Nov  7 12:40:07 10.71.60.0 u106298751 open "/logs/access.log.44.3.gz" flags READ mode 0666
+Nov  7 12:40:08 10.71.60.0 u106298751 open "/logs/access.log.44.2.gz" flags READ mode 0666
+Nov  7 12:40:08 10.71.60.0 u106298751 close "/logs/access.log.44.3.gz" bytes read 1336 written 0
+Nov  7 12:40:08 10.71.60.0 u106298751 [10.71.60.0|get|1|1336|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e332e677a|]
+Nov  7 12:40:08 10.71.60.0 u106298751 close "/logs/access.log.44.2.gz" bytes read 1726 written 0
+Nov  7 12:40:08 10.71.60.0 u106298751 [10.71.60.0|get|0|1726|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e322e677a|]
+Nov  7 12:40:08 10.71.60.0 u106298751 open "/logs/access.log.44.1.gz" flags READ mode 0666
+Nov  7 12:40:09 10.71.60.0 u106298751 open "/logs/sftp.log" flags READ mode 0666
